@@ -45,6 +45,12 @@ Rule and profile coverage
 - All roster weapon profiles, transport/chariot profiles, Soul Siphon aspects and bespoke wargear effects are included.
 - Verified core HH1 USRs link directly to the archived Horus Heresy 1.0 game-system rule IDs. Source-specific Shae'lait rules and any unverified generic rules remain local reference rules rather than guessing at external IDs.
 
+Revision 3 usability fixes
+--------------------------
+- Focused Shae'lait Exalted mount/chariot choices are nested on the actual character model so they appear in the character configuration panel.
+- Chariot Cavalcade Seeker, Hellflayer and Exalted Seeker chariots have mandatory crew-weapon allocations matching their rider counts.
+- Each crew weapon can be Lash of Despair or Excruciator pike; choosing it exposes the complete weapon profile(s) and linked special rules.
+
 Source gaps / implementation assumptions
 ----------------------------------------
 The completed roster states that some characters may buy weapons at their 'listed armoury cost', but the completed armoury table does not actually print prices for several generic Moderate/Higher weapons. To make the BattleScribe list buildable instead of leaving zero-cost high-end weapons, this implementation uses conservative data-only costs for those missing values. They are an implementation layer, not source-derived canon:

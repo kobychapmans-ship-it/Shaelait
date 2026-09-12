@@ -1,25 +1,27 @@
-Shae'lait BattleScribe QA — Revision 2
+Shae'lait BattleScribe QA — Revision 3
 ========================================
-Catalogue revision: 2
+Catalogue revision: 3
 Root selections: 34
 Profiles: 186
 Rules: 210
-Unique XML IDs: 2486
-New unresolved target references: 0
+Unique XML IDs: 2521
+Duplicate XML IDs: 0
+New crew-weapon unresolved references: 0
 
 Requested change checks:
-- chariot rider profiles: PASS
-- cultist platoon nested units: PASS
-- leader upgrade gates: PASS
-- profile modifiers present: PASS
+- character chariot choices moved onto eligible Focused Exalted model: PASS
+- Chariot Cavalcade rider statlines retained: PASS
+- Seeker Chariot crew weapons (2 per chariot): PASS
+- Hellflayer Chariot crew weapons (2 per chariot): PASS
+- Exalted Seeker Chariot crew weapons (3 per chariot): PASS
+- Lash of Despair exposes melee + ranged profiles and its custom rules: PASS
+- Excruciator pike exposes profile + Impaled + Two-handed: PASS
 
 Package checks:
 - Catalogue XML parse: PASS
 - Duplicate XML IDs: PASS
-- CATZ ZIP/XML round-trip: PASS
-- index.bsi ZIP/XML: PASS
-- repository .bsr package/current catalogue: PASS
+- CATZ/index/BSR ZIP/XML round-trip: PASS
 
-Implementation note: deterministic roster-time bonuses are reflected in profiles. Bonuses that only arise temporarily during a game (for example from a psychic power, challenge, kill, game-turn step or successful charge) remain in the rule text because BattleScribe cannot know the live game state.
+Implementation note: the crew-weapon group uses BattleScribe repeat modifiers so its exact required weapon count scales with the number of that chariot type selected (2 per Seeker/Hellflayer, 3 per Exalted Seeker).
 
 Status: PASS
