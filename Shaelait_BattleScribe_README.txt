@@ -60,3 +60,11 @@ The roster prints the Dais of a Circle as a Dedicated Transport but does not ide
 Install
 -------
 Import the .catz into the same BattleScribe data repository/install that contains The Horus Heresy.gst from the HH1 repository. The catalogue identifies itself as '(HH V1) Shae'lait — Slaaneshi Aeldari' and should appear as a force choice under that game system.
+
+
+Revision 2 changes
+==================
+- Chariot Cavalcade now displays Daemonette / Exalted Daemonette rider profiles for each chariot type.
+- Deterministic characteristic bonuses from selected mounts, Soul Siphons, Broken Perfection patterns, Transfigured of the Sixth Circle, Apprentice Tools, Mirrorblade pair and Vessel of Perfection are reflected in displayed profiles where the owning model/unit can be represented unambiguously. Temporary in-game bonuses remain rules text.
+- Cultist Platoon Rabble is reformatted as a platoon parent with separately configurable nested Command Squad, Cultist Squads and Mutant Rabble units. Each Cultist Squad controls its own additional bodies and special weapons.
+- Leader-only upgrades are hidden until the corresponding Alluress, Slave Tender or Herdmaster is selected.

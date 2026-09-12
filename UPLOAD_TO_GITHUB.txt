@@ -1,0 +1,13 @@
+Shae'lait BattleScribe Revision 2 — GitHub upload set
+
+Replace the repository root copies of the seven BattleScribe files in this folder.
+Do not rename them.
+
+BattleScribe data URL after upload:
+https://raw.githubusercontent.com/kobychapmans-ship-it/Shaelait/main/index.bsi
+
+Revision 2 contains:
+- Chariot rider unit statlines.
+- Roster-time stat bonuses represented on profiles where deterministic.
+- Cultist Platoon Rabble restructured as nested, separately configurable platoon units.
+- Leader-only upgrades hidden until the relevant leader is selected.

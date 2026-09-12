@@ -1,14 +1,25 @@
-Shae'lait BattleScribe QA
-=========================
+Shae'lait BattleScribe QA — Revision 2
+========================================
+Catalogue revision: 2
 Root selections: 34
-Profiles: 168
+Profiles: 186
 Rules: 210
-Force entries: 3
-Unique XML IDs: 2459
-Native HH1 rule links used: 12 (Armourbane, Blast, Blind, Crusader, Deep Strike, Fleshbane, Gets Hot, Hammer of Wrath, Instant Death, Melta, Move Through Cover, Twin-linked)
-CATZ ZIP structure/XML round-trip: PASS
-index.bsi package/XML: PASS
-Status: PASS
+Unique XML IDs: 2486
+New unresolved target references: 0
 
-Checks passed: XML well-formed; no duplicate IDs; all local and verified-native targetId references resolve; all expected roster entries are present; force entries and From Raw and Rips slot/25%/master-HQ restrictions match the source implementation.
-repository .bsr package/current catalogue: PASS
+Requested change checks:
+- chariot rider profiles: PASS
+- cultist platoon nested units: PASS
+- leader upgrade gates: PASS
+- profile modifiers present: PASS
+
+Package checks:
+- Catalogue XML parse: PASS
+- Duplicate XML IDs: PASS
+- CATZ ZIP/XML round-trip: PASS
+- index.bsi ZIP/XML: PASS
+- repository .bsr package/current catalogue: PASS
+
+Implementation note: deterministic roster-time bonuses are reflected in profiles. Bonuses that only arise temporarily during a game (for example from a psychic power, challenge, kill, game-turn step or successful charge) remain in the rule text because BattleScribe cannot know the live game state.
+
+Status: PASS
