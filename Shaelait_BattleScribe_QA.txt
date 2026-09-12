@@ -1,0 +1,14 @@
+Shae'lait BattleScribe QA
+=========================
+Root selections: 34
+Profiles: 168
+Rules: 210
+Force entries: 3
+Unique XML IDs: 2459
+Native HH1 rule links used: 12 (Armourbane, Blast, Blind, Crusader, Deep Strike, Fleshbane, Gets Hot, Hammer of Wrath, Instant Death, Melta, Move Through Cover, Twin-linked)
+CATZ ZIP structure/XML round-trip: PASS
+index.bsi package/XML: PASS
+Status: PASS
+
+Checks passed: XML well-formed; no duplicate IDs; all local and verified-native targetId references resolve; all expected roster entries are present; force entries and From Raw and Rips slot/25%/master-HQ restrictions match the source implementation.
+repository .bsr package/current catalogue: PASS
