@@ -74,3 +74,13 @@ Revision 2 changes
 - Deterministic characteristic bonuses from selected mounts, Soul Siphons, Broken Perfection patterns, Transfigured of the Sixth Circle, Apprentice Tools, Mirrorblade pair and Vessel of Perfection are reflected in displayed profiles where the owning model/unit can be represented unambiguously. Temporary in-game bonuses remain rules text.
 - Cultist Platoon Rabble is reformatted as a platoon parent with separately configurable nested Command Squad, Cultist Squads and Mutant Rabble units. Each Cultist Squad controls its own additional bodies and special weapons.
 - Leader-only upgrades are hidden until the corresponding Alluress, Slave Tender or Herdmaster is selected.
+
+
+Revision 4 character-chariot and Magister squadron fixes
+========================================================
+- Character-mounted Seeker, Hellflayer and Exalted Seeker Chariots now expose an optional Additional Crew Bodyguard.
+- Additional Crew follows the roster source: two Exalted Daemonette riders cost 60 pts; HP3 chariots may add a third rider for 30 pts.
+- Every additional rider displays an Exalted Daemonette statline, fixed Ecstatic Shrieker + 2x Languid claws wargear, and a required free choice of Lash of Despair or Excruciator pike.
+- Lash of Despair exposes both melee and ranged profiles plus Swiftstrike/Tendril Strikes; the pike exposes Impaled and Two-handed.
+- Cultist Magisters are now six individually configurable model slots (first required at 40 pts, five optional at 30 pts), so each Magister can independently choose its own mount or chariot.
+- Every Magister chariot gets the same Additional Crew Bodyguard tree. When two or more Magisters take chariots, the roster displays the Magister Chariot Squadron rule and the vehicle profiles remain grouped inside the same unit.

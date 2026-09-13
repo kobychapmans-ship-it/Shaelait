@@ -1,27 +1,37 @@
-Shae'lait BattleScribe QA — Revision 3
-========================================
-Catalogue revision: 3
-Root selections: 34
-Profiles: 186
-Rules: 210
-Unique XML IDs: 2521
+Shae'lait BattleScribe QA — Revision 4
+=======================================
+Catalogue revision: 4
+Unique XML IDs: 4480
 Duplicate XML IDs: 0
-New crew-weapon unresolved references: 0
+Cultist Magister individually configurable model slots: 6
+Focused Exalted character-chariot Additional Crew trees: 3
+Magister character-chariot Additional Crew trees: 18
+Total Additional Crew Bodyguard selections: 21
+Total explicit Exalted Daemonette rider model entries across character-chariot trees: 56
+External HH1 game-system target IDs referenced: 12
 
-Requested change checks:
-- character chariot choices moved onto eligible Focused Exalted model: PASS
-- Chariot Cavalcade rider statlines retained: PASS
-- Seeker Chariot crew weapons (2 per chariot): PASS
-- Hellflayer Chariot crew weapons (2 per chariot): PASS
-- Exalted Seeker Chariot crew weapons (3 per chariot): PASS
-- Lash of Despair exposes melee + ranged profiles and its custom rules: PASS
-- Excruciator pike exposes profile + Impaled + Two-handed: PASS
+Revision 4 requested-change checks
+----------------------------------
+PASS — Focused Shae'lait Exalted Seeker/Hellflayer/Exalted Seeker Chariots expose Additional Crew Bodyguard.
+PASS — Additional Crew starts with two required Exalted Daemonette riders for +60 pts.
+PASS — HP3 Hellflayer and Exalted Seeker chariots allow one third rider for +30 pts; HP2 Seeker Chariot is capped at two.
+PASS — Every additional rider displays an Exalted Daemonette Unit profile.
+PASS — Every additional rider exposes fixed Ecstatic Shrieker and 2x Languid claws wargear/rules.
+PASS — Every additional rider requires exactly one additional weapon: Lash of Despair or Excruciator pike.
+PASS — Lash exposes both melee/ranged profiles plus Swiftstrike/Tendril Strikes; pike exposes Impaled/Two-handed.
+PASS — Cultist Magisters are six individual model slots: first required at 40 pts, five optional at 30 pts.
+PASS — Every Magister independently has Mount / Chariot options, including all three chariot profiles.
+PASS — Every Magister chariot exposes the same Additional Crew Bodyguard tree.
+PASS — Every Magister chariot links Magister Chariot Squadron; multiple selected chariots remain inside the same Cultist Magisters unit as vehicle profiles.
+PASS — Existing Chariot Cavalcade crew-weapon implementation remains present.
 
-Package checks:
-- Catalogue XML parse: PASS
-- Duplicate XML IDs: PASS
-- CATZ/index/BSR ZIP/XML round-trip: PASS
-
-Implementation note: the crew-weapon group uses BattleScribe repeat modifiers so its exact required weapon count scales with the number of that chariot type selected (2 per Seeker/Hellflayer, 3 per Exalted Seeker).
+Packaging checks
+----------------
+PASS — catalogue XML parses.
+PASS — no duplicate IDs.
+PASS — no new unresolved local target references; remaining external IDs are the existing verified HH1 game-system links.
+PASS — .catz contains Revision 4 .cat and parses.
+PASS — index.bsi contains index.xml with dataRevision=4.
+PASS — .bsr contains Revision 4 index.xml and .catz.
 
 Status: PASS
